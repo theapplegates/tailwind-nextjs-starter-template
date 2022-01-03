@@ -96,5 +96,9 @@ module.exports = withBundleAnalyzer({
     }
 
     return config
-  },
-})
+    },
+      images: {
+        domains: ['applegate-paul.mo.cloudinary.net'],
+        formats: ['image/avif', 'image/webp']
+      }
+    })
